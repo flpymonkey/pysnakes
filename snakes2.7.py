@@ -1,4 +1,4 @@
-import random, pygame, sys
+import random, pygame, sys, matplotlib, pylab
 from pygame.locals import *
 #Colors   R    G   B
 WHITE = (255, 255, 255)
@@ -46,7 +46,7 @@ WINDOWWIDTH = 1000 #Size of windows width in pixels (invest mode default 1000)
 WINDOWHEIGHT = 700 #Size of windows height in pixels (invest mode default 700)
 BGCOLOR = WHITE #Back Ground Color
 FPS = 60 #frames per second
-graphing = False #data graphing when press G
+graphing = True #data graphing when press G
 investMode = False #Is invest mode on
 FPSCLOCK = pygame.time.Clock()
 DISPLAYSURF = pygame.display.set_mode((WINDOWWIDTH, WINDOWHEIGHT))
